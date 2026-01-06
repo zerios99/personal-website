@@ -2,6 +2,7 @@ export type Project = {
   title: string;
   description: string;
   tech: string[];
+  role?: string;
   highlights: string[];
   metrics?: string[]; // impact bullets (professional)
   featured?: boolean;
