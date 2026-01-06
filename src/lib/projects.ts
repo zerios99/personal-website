@@ -11,10 +11,10 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Inventory Dashboard",
+    title: "kud-chatApp",
     description:
-      "Role-based admin dashboard for orders, stock, and reporting with fast search and analytics.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind"],
+      "Chat web application with role-based access control, real-time messaging, and advanced search functionality.",
+    tech: ["React.js", "TypeScript", "MongoDB", "Tailwind"],
     highlights: ["RBAC auth", "Search + filters", "Optimized queries"],
     metrics: ["Reduced report time by 60%", "1s average search response"],
     featured: true,
@@ -24,10 +24,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "E-commerce SEO Content Tool",
+    title: "z-markit E-commerce",
     description:
       "Internal tool to generate SEO-friendly product content with templates and quality checks.",
-    tech: ["Next.js", "Node.js", "OpenAI", "Tailwind"],
+    tech: ["Next.js", "Node.js", "Tailwind"],
     highlights: ["Reusable templates", "Preview + copy workflow", "Fast UX"],
     metrics: ["Cut content creation time by 70%"],
     featured: true,
