@@ -288,7 +288,7 @@ const site = {
     url: "https://your-domain.com",
     github: "https://github.com/zerios99",
     linkedin: "https://www.linkedin.com/in/your-username",
-    email: "you@email.com"
+    email: "zainyasser31@gmail.com"
 };
 }),
 "[project]/src/components/Footer.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
