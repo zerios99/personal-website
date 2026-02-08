@@ -97,9 +97,12 @@ export default async function HomePage({
               </a>
             </Button>
 
-            {/* لو عندك ملف CV ضع الرابط هنا */}
             <Button variant="ghost" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              <a
+                href="https://drive.google.com/file/d/1lqDXomUDH8qAPJB6LPbckS7ceAGAzYQm/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {t.hero.ctaResume ?? (isAr ? "السيرة الذاتية" : "Resume")}
               </a>
             </Button>
